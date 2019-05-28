@@ -4,11 +4,6 @@
 <jsp:useBean id="obj" class="bean.LoginBean"/>
 <jsp:setProperty property="*" name="obj"/>
 <%
-	if((int)session.getAttribute("log")==0)
-	    response.sendRedirect("login.html");
-
-	%>
-<%
 	obj=(LoginBean)session.getAttribute("object");
 	obj.setNetBankingPassword(request.getParameter("nbpassword"));
 	obj.setTransactionAmount(Float.parseFloat(request.getParameter("amount")));

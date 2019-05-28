@@ -44,6 +44,7 @@ public class LoginDao {
     	    }
     	    String pswd=obj.getNetBankingPassword();
     		String query="update account set balance="+total+" where id = "+obj.getId()+" and netpassword='"+pswd+"';";
+    		//System.out.println(query);
     		Connection con=ConnectionProvider.getCon();
         	PreparedStatement ps=con.prepareStatement(query);
         	ps=con.prepareStatement(query);

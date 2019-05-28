@@ -8,7 +8,6 @@
 	obj.setPassword(pass);
 	boolean status=LoginDao.validate(obj);
 	session.setAttribute("object",obj);
-	session.setAttribute("log", 1);
     if(status==true){
     	session.setAttribute("session","TRUE");
     	%>

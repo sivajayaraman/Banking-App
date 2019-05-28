@@ -16,50 +16,11 @@
  <html>
  	<head>
  		<title>ACCOUNT DETAILS</title>
+ 		<link rel="stylesheet" type="text/css" href="design.css">
  	</head>
- 	<style>
- 		.container {
- 			border: 3px solid #f1f1f1;
-		  	padding: 16px;
- 		}
- 		.content {
-		  max-width: 1000px;
-		  margin: auto;
-		}
-		#tbl {
-		  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-		  border-collapse: collapse;
-		  width: 100%;
-		}
-		
-		#tbl td, #tbl th {
-		  border: 1px solid #ddd;
-		  padding: 8px;
-		  text-align: center;
-		}
-		
-		#tbl tr:nth-child(even){
-			background-color: #f2f2f2;
-			text-align: center;
-		}
-		
-		#tbl tr:hover {
-			background-color: #ddd;
-			text-align: center;
-		}
-		#tbl th { 
-		  padding-top: 12px;
-		  padding-bottom: 12px;
-		  text-align: center;
-		  background-color: #4CAF50;
-		  color: white;
-		}
-	</style>
- 	
  	<body>
  	<br><br><br><br><br>
  	<div class="content">
- 		<div class="container">
  			<table id="tbl">
  				<tr>
 		 			<th>ACCOUNT NO</th>
@@ -78,7 +39,6 @@
 		 			<td><% out.print(address); %></td>
 		 		</tr>
  			</table>
- 		</div>
  		</div>
  	</body>
  </html>

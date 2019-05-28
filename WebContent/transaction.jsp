@@ -13,49 +13,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>ONLINE TRANSACTION</title>
+		<link rel="stylesheet" type="text/css" href="design.css">
 	</head>
-	<style>
-		body {
-		    font-family: Arial, Helvetica, sans-serif;
-		}
-		input[type=text], input[type=password] {
-		  width: 100%;
-		  padding: 12px 20px;
-		  margin: 8px 0;
-		  display: inline-block;
-		  border: 1px solid #ccc;
-		  box-sizing: border-box;
-		}
-		a {
-			text-decoration: none
-		}
-		button {
-		  background-color: #4CAF50;
-		  color: white;
-		  padding: 14px 20px;
-		  margin: 8px 0;
-		  cursor: pointer;
-		  width: 100%;
-		}
-		button:hover {
-		  opacity: 0.8;
-		  background-color: #000000;
-		}
-		.container {
-		  border: 3px solid #f1f1f1;
-		  padding: 16px;
-		}
-		.paybtn{
-		  float: center;
-		}
-		.content {
-		  max-width: 500px;
-		  margin: auto;
-		}
-		.clearfix::after {
-	      content: "";
-		}
-	</style>
 	<body>
 		<div class="content">
 			<br><br><br><br><br><br>
